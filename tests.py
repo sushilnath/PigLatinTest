@@ -15,7 +15,8 @@ test_input = (
 	"are",
 	"Pigs are awesome!!!",
 	"I'm searching ... oh! found it. Let's go to \"zoo\"",
-	"Testing for new line \n\t Pig asked : can we can do it?"
+	"Testing for new line \n\t Pig asked : can we can do it?",
+	"-=~...,,,///??   #$%^&*()##$%^  ;"
 );
 
 test_output = (
@@ -30,7 +31,8 @@ test_output = (
 	"areyay",
 	"Igspay areyay awesomeyay!!!",
 	"I'myay earchingsay ... ohyay! oundfay ityay. Et'slay ogay otay \"oozay\"",
-	"Estingtay orfay ewnay inelay \n\t Igpay askedyay : ancay eway ancay oday ityay?"
+	"Estingtay orfay ewnay inelay \n\t Igpay askedyay : ancay eway ancay oday ityay?",
+	"-=~...,,,///??   #$%^&*()##$%^  ;"
 );
 
 class PigLatinTest(unittest.TestCase):
