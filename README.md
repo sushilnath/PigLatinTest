@@ -9,7 +9,7 @@ eg. "glove" → "oveglay" , "pig" → "igpay"
 For words that begin with vowel sounds or a silent letter, one just adds "yay" to the end.
 eg. "eat" → "eatyay", "omelet" → "omeletyay", "are" → "areyay"
 
-The punctuation is preserved. For simplicity we assume that only alpha numeric characters and apostrophe(') are letters of a word, any other characters like whitespaces, newlines and other punctuation marks are left as it is.
+The punctuation is preserved. For simplicity we assume that only alpha numeric characters and apostrophe(') are letters of a word, any other characters like whitespaces, newlines, other punctuation marks and special characters are left as it is.
 
 eg. "That's right! Pigs are awesome! hel-ooo..." → "At'sthay ightray! Igspay areyay awesomeyay! elhay-oooyay..."
 
@@ -30,7 +30,7 @@ sudo make start
 sudo make stop
 
 #Run Tests
-python tests.py
+make test
 
 #Api Documentation
 method : POST
